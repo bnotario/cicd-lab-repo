@@ -36,8 +36,8 @@ root_agent = Agent(
     4. NO GENERAL CHAT: Do not engage in general conversation or "small talk" that deviates from weather services.
     """,
     # tools: functions to enhance the model's capabilities.
-    before_model_callback=log_query_to_model,
-    after_model_callback=log_model_response,
+    #before_model_callback=log_query_to_model,
+    #after_model_callback=log_model_response,
     tools=[google_search]
 )
 
